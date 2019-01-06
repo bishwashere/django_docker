@@ -1,11 +1,10 @@
-# django_docker
 A Django docker container - without nginx &amp; supervisord.
 
-## Reset:  
+#### Reset:  
 1. `docker container prune`  
 2. `docker image prune  -a`
 
-## Steps to deploy  
+#### Steps to deploy  
 
 1. `docker build -t webapp`  
 2. `docker images`  
