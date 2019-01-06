@@ -1,5 +1,3 @@
-A Django docker container - without nginx &amp; supervisord.
-
 1. `docker build -t webapp`  
 2. `docker images`  
 3. `docker run -itd -p 9876:9876 webapp bash`
