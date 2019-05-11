@@ -1,4 +1,6 @@
-1. `docker compose up`
+1. `sudo docker-compose up -d`
+2. `https://localhost:9876
+3. `sudo docker container attach webapp`
 <hr>
 
 Notes:  
