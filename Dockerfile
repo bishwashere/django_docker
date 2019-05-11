@@ -27,5 +27,3 @@ RUN pip3 install -r /home/docker/code/app/requirements.txt
 
 RUN django-admin.py startproject website /home/docker/code/app/
 
-RUN bash
-

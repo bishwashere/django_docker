@@ -2,9 +2,11 @@ version: '3.3'
 services:
  webapp:
   build: ./
-  image: docker_webapp
+  image: webapp_img
   container_name: webapp
-  command: sh
-  # Default output
-  # tty: true
-   
+  ports:
+   - "9876:9876"
+  command: python3 /home/docker/code/app/manage.py runserver 0.0.0.0:9876
+  stdin_open: true #  docker attach container_id
+  #tty: true #  docker attach container_id
+
