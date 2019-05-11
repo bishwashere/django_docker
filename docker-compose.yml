@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+ webapp:
+  build: ./
+  image: docker_webapp
+  container_name: webapp
+  command: sh
+  # Default output
+  # tty: true
+   
